@@ -1,0 +1,36 @@
+.widgets {
+    max-width: 30%;
+}
+
+.widgets__input {
+    display: flex;
+    align-items: center;
+    background-color: var(--twitter-background);
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.widgets__input > input {
+    border: none;
+    outline: none;
+    background-color: var(--twitter-background);
+}
+
+.widgets__search {
+    color: grey;
+}
+
+.widgets__container {
+    margin-top: 16px;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: #f5f8fa;
+    border-radius: 20px;
+}
+
+.widgets__container > h2 {
+    font-size: 24px;
+    font-weight: 700;
+}

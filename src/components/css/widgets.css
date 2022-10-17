@@ -1,6 +1,5 @@
 .widgets {
-    flex: 0.3;
-    min-width: 250px;
+    width: 100%;
 }
 
 .widgets__input {
